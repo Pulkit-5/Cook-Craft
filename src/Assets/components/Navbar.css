@@ -1,0 +1,36 @@
+.navbar-brand{
+    padding: 5px;
+}
+
+.container-fluid a{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    
+}
+
+.d-flex{
+    padding-top: 10px;
+    margin-right: 60px;
+    padding-bottom: 7px;
+    
+
+}
+.navbar{
+
+    background-color: rgb(186, 243, 186);
+    box-shadow: 0 3px 10px 0 #aaa;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    mix-blend-mode: multiply;
+    height: 26px;
+    margin-left: 90px;
+    
+}

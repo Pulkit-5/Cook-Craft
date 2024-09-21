@@ -24,7 +24,20 @@
   color: white;
 }
 
-.App-link {
+.App-link {abody {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
   color: #61dafb;
 }
 
@@ -35,4 +48,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  position: relative;
+  background: rgba(255, 255, 255, 0.5) url('./Assets/Assets/pexels-goumbik-349609.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+body::before{
+opacity: 0;
 }

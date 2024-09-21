@@ -1,0 +1,49 @@
+.main-div {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 1200px;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.all-food {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.all-food img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.all-food p {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.btn-outline-success {
+  margin-top: 1rem;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}

@@ -1,0 +1,116 @@
+/* RecipeFinder.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+
+  
+}
+
+
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 100px;
+}
+
+.all-food {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.all-food:hover {
+  transform: translateY(-5px);
+}
+
+.all-food img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.all-food p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 1200px) {
+  .recipes {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .recipes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .recipes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .recipes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .food-div input {
+    width: 80%;
+  }
+
+  .food-div button {
+    margin-top: 10px;
+  }
+}
+
+.spinner-container {
+  position: fixed; /* Position it relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /*background-color: rgba(255, 255, 255, 0.8); 
+  z-index: 9999; 
+  */
+}
+
+
+
